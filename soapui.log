@@ -1,0 +1,65 @@
+2024-05-28 12:09:51,047 WARN  [SoapUI] Missing folder [C:\Users\FaizaAslam\Downloads\udemy-soapui-mvn-master\udemy-soapui-mvn-master\ext] for external libraries
+2024-05-28 12:09:51,048 INFO  [DefaultSoapUICore] Creating new settings at [C:\Users\FaizaAslam\soapui-settings.xml]
+2024-05-28 12:09:52,325 INFO  [PluginManager] Adding plugin from [C:\Users\FaizaAslam\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2024-05-28 12:09:53,247 WARN  [PluginManager] Could not load plugin from file [C:\Users\FaizaAslam\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.postman.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+2024-05-28 12:09:53,254 INFO  [PluginManager] Adding plugin from [C:\Users\FaizaAslam\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2024-05-28 12:09:53,908 WARN  [PluginManager] Could not load plugin from file [C:\Users\FaizaAslam\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.mqttsupport.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+2024-05-28 12:09:53,913 INFO  [PluginManager] 2 plugins loaded in 1591 ms
+2024-05-28 12:09:53,915 INFO  [DefaultSoapUICore] All plugins loaded
+2024-05-28 12:09:54,822 INFO  [WsdlProject] Loaded project from [file:/C:/Users/FaizaAslam/Downloads/udemy-soapui-mvn-master/udemy-soapui-mvn-master/CountryInfoproject.xml]
+2024-05-28 12:09:54,829 INFO  [SoapUITestCaseRunner] Setting project property [property1] to [fromMaven1]
+2024-05-28 12:09:54,832 INFO  [SoapUITestCaseRunner] Setting project property [property2] to [fromMaven1]
+2024-05-28 12:09:54,832 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [CountryInfoService]
+2024-05-28 12:09:54,834 INFO  [SoapUITestCaseRunner] Running Project [CountryInfoService], runType = SEQUENTIAL
+2024-05-28 12:09:54,851 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CapitalCity TestCase]
+2024-05-28 12:09:54,872 INFO  [SoapUITestCaseRunner] running step [CapitalCity]
+2024-05-28 12:09:55,982 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CapitalCity TestCase], time taken: 1081ms, status: FINISHED
+2024-05-28 12:09:55,986 INFO  [SoapUITestCaseRunner] Project [CountryInfoService] finished with status [FINISHED] in 1147ms
+2024-05-28 12:09:56,023 WARN  [Tools] Could not delete temporary directory C:\Users\FAIZAA~1\AppData\Local\Temp\1dc86f72-3951-4bec-ba42-bb9e461282a5
+2024-05-28 12:09:56,024 WARN  [Tools] Could not delete temporary directory C:\Users\FAIZAA~1\AppData\Local\Temp\344d5778-6642-4fc4-bc9d-7ff10708a0d2

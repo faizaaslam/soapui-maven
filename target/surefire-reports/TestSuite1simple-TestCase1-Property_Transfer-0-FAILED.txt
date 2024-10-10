@@ -1,0 +1,13 @@
+Status: FAILED
+Time Taken: 742
+Size: 0
+Timestamp: Mon May 27 23:13:47 PKT 2024
+TestStep: Property Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Invalid JSON: null
+
+----------------- Messages ------------------------------
+Error performing transfer [countrynameTransfer] - Invalid JSON: null
+----------------------------------------------------
+countrynameTransfer transferred [[Invalid JSON: null]] from [getcounteries - Request 1.Response] to [getbycountryname- Request 1.countryname]
+------------ source path -------------
+$.[0].name

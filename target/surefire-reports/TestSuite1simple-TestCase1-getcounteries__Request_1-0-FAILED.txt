@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Mon May 27 23:07:49 PKT 2024
+TestStep: getcounteries - Request 1
+
+----------------- Messages ------------------------------
+java.net.SocketException: Connection reset
+
+- missing response / garbage collected -
